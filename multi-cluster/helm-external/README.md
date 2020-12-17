@@ -17,7 +17,7 @@ metadata:
   name: helm-external
   namespace: fleet-local
 spec:
-  repo: https://github.com/rancher/fleet-examples
+  repo: https://github.com/weihoop/fleet-examples
   paths:
   - multi-cluster/helm-external
   targets:
