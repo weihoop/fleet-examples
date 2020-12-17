@@ -20,7 +20,7 @@ spec:
         tier: frontend
     spec:
       containers:
-      - image: gcr.io/google-samples/gb-frontend:v4
+      - image: weihoop/gb-frontend:v4
         name: php-redis
         ports:
         - containerPort: 80

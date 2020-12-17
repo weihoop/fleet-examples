@@ -102,7 +102,7 @@ spec:
           spec:
             containers:
             - name: php-redis
-              image: gcr.io/google-samples/gb-frontend:v4
+              image: weihoop/gb-frontend:v4
               resources:
                 requests:
                   cpu: 100m
@@ -195,7 +195,7 @@ spec:
           spec:
             containers:
             - name: slave
-              image: gcr.io/google_samples/gb-redisslave:v1
+              image: weihoop/gb-redisslave:v1
               resources:
                 requests:
                   cpu: 100m
